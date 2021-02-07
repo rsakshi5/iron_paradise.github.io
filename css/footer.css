@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+@import url("https://use.typekit.net/xeu2khu.css");
+
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 30px 30px 20px 30px;
+  color: #2f2f2f;
+
+}
+
+.footer > * {
+  flex:  1 100%;
+}
+
+.footer__addr {
+  margin-right: 1.25em;
+  margin-bottom: 2em;
+}
+
+.footer__logo {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.footer__logo strong{
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  color: #f36100;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.footer__addr h2 {
+  color: #f36100;
+  letter-spacing: 1px;
+  font-family: "Oswald", sans-serif;
+  margin-top: 1.3em;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.nav__title {
+  font-weight: 400;
+  font-size: 15px;
+  color: #f36100;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.footer address {
+  font-family: "Muli", sans-serif;
+  font-style: normal;
+  color: #999;
+}
+
+.footer__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgb(33, 33, 33, 0.07);
+  border-radius: 100px;
+  color: #2f2f2f;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+  color: #999;
+}
+
+.footer ul {
+  font-family: "Muli", sans-serif;
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer li {
+  line-height: 2em;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer__nav {
+  display: flex;
+	flex-flow: row wrap;
+}
+
+.footer__nav > * {
+  flex: 1 50%;
+  margin-right: 1.25em;
+}
+
+.nav__ul a {
+  color: #999;
+}
+
+.nav__ul--extra {
+  column-count: 2;
+  column-gap: 1.25em;
+}
+
+.legal {
+  font-family: "Muli", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  color: #999;
+}
+  
+.legal__links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: #2f2f2f;
+}
+
+#footer{
+  padding: 10px 0px;
+  justify-content: center;
+  text-align: center;
+  background-color: #0a0a0a;
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 24.375em) {
+  .legal .legal__links {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 40.375em) {
+  .footer__nav > * {
+    flex: 1;
+  }
+  
+  .nav__item--extra {
+    flex-grow: 2;
+  }
+  
+  .footer__addr {
+    flex: 1 0px;
+  }
+  
+  .footer__nav {
+    flex: 2 0px;
+  }
+}
+
+
+.footer form{
+  display: inline-block;
+}
+
+.footer form input,
+.footer form textarea{
+  display: block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color:  #1f2022;
+  box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+  border: none;
+  resize: none;
+
+  font: inherit;
+  font-size: 14px;
+  font-weight: normal;
+  color:  #d1d2d2;
+
+  width: 330px;
+  padding: 18px;
+}
+
+.footer ::-webkit-input-placeholder {
+  color:  #5c666b;
+}
+
+.footer ::-moz-placeholder {
+  color:  #5c666b;
+  opacity: 1;
+}
+
+.footer :-ms-input-placeholder{
+  color:  #5c666b;
+}
+
+
+.footer form input{
+  height: 55px;
+  font-family: "Muli", sans-serif;
+  margin-bottom: 15px;
+}
+
+.footer form textarea{
+  font-family: "Muli", sans-serif;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.footer form button{
+  border-radius: 3px;
+  font-family: "Muli", sans-serif;
+  background-color:  #f36100;
+  color: #ffffff;
+  border: 0;
+  padding: 15px 50px;
+  font-weight: bold;
+  float: right;
+  cursor: pointer;
+}
+.footer form button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media screen and (max-width: 618px) 
+{
+  .footer form button{
+    justify-content: center;
+  
+    align-items: center;
+  }
+
+}

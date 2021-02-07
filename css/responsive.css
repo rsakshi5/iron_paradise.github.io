@@ -1,0 +1,128 @@
+@media screen and (max-width: 1377px) {
+    #navbar{
+        background-color: #0a0a0a;
+    }
+
+    .burger{
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 15px;
+     }
+
+     .line{
+         width: 33px;
+         background-color: white;
+         height: 4px;
+         margin: 5px 3px;
+     }
+
+     #navbar ul {
+  
+        display: block;
+        top: 228px;
+        left: 50%;
+        background-color: #0a0a0a;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+  
+
+    .v-class{
+        opacity: 0;
+    }
+
+
+    .h-nav{
+        height: 72px;
+    }
+
+    .dropdown {
+        margin-right: 9px;
+        margin-left: 12px;
+    }
+
+
+    .burger{
+        display: block;
+      }
+
+      #logo h1 {
+        font-family: "Oswald", sans-serif;
+        color: white;
+        margin: 0%;
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+}
+
+
+@media screen and (max-width: 798px) {
+#home{
+    padding: 3px 0;
+}
+}
+
+
+@media screen and (max-width: 1449px) {
+#Pfeedback .feedback_card .feedback-text{
+    margin: auto;
+}
+}
+
+
+@media screen and (max-width: 462px) {
+#hi-text h1 {
+    font-size: 57px;
+}
+}
+
+
+
+@media screen and (max-width: 1163px) {
+.classes_card {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+
+@media screen and (max-width: 1161px) {
+.classes_card {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 739px;
+}
+}
+
+@media screen and (max-width: 824px) {
+.classes_card {
+    padding-bottom: 1073px;
+}
+}
+
+
+@media screen and (max-width: 1370px) {
+.whyus_resp {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+#hi-text h1 {
+    font-size: 37px;
+}
+#Pfeedback p{
+    padding: 0;
+}
+}
+
+@media screen and (max-width: 528px) {
+
+#Pfeedback p{
+    padding: 0;
+}
+}
